@@ -46,6 +46,7 @@ public class Conexion {
 	 ****/
 	public static void AlimentaPelicula(ArrayList<Pelicula> lista) {
 		String jdbcURL = "jdbc:oracle:thin:@localhost:1521/xepdb1"; 
+		//Datos de usuario de BBDD
         String username = "PRUEBADAM4";
         String password = "PRUEBADAM4";
         try {
